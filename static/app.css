@@ -1,0 +1,73 @@
+.namelist{
+    text-decoration: none;
+}
+
+
+.Btn {
+    background-color: #355dff;
+    /* border: none; */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px 7px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
+
+
+
+.cancelBtn {
+    background-color: #f23b3b;
+    /* border: none; */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px 7px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background-color: #f23b3b;
+    /* border: none; */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px 7px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.addPostBtn {
+    background-color: #3acc35;
+    /* border: none; */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px 7px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
+
+.nametextbox{
+    width: 150px;
+}
+
+.imageeditbox{
+    width: 400px;
+}

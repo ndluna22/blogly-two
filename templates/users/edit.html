@@ -1,0 +1,53 @@
+{% extends 'base.html' %} {% block title %}Edit a user{{user.first_name}}{{user.last_name}}{% endblock %} {% block
+content %}
+
+<h1>Edit User</h1>
+
+<form method="POST">
+
+
+    <div class="editbox">First Name: 
+      <input
+        type="text"
+        class="nametextbox"
+        id="first_name"
+        name="first_name"
+        value="{{ user.first_name }}"
+      />
+    </div>
+
+  <br>
+
+    <div class="editbox"> Last Name:
+      <input
+        type="text"
+        class="nametextbox"
+        id="last_name"
+        name="last_name"
+        value="{{ user.last_name }}">
+      
+    </div>
+    <br>
+
+
+ 
+    <div class="editbox"> Image URL: 
+      <input 
+        type="text"
+        class="imageeditbox"
+        id="image_url"
+        name="image_url"
+        value="{{ user.image_url }}">
+        <img src="" alt="" id="gif" />
+    
+    </div>
+    <br>
+
+
+  <div class="editButtons">
+    <a href="/users" class="cancelBtn">Cancel</a>
+    <button type="submit" class="Btn">Save</button>
+  </div>
+</form>
+
+{% endblock %}
